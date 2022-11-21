@@ -9,7 +9,7 @@ class MemoryGame {
   }
 
   shuffleCards() {
-    if (this.cards.length === 0) {
+    if (!this.cards) {
       return undefined;
     }
     for (let i = 0; i < this.cards.length; i++) {

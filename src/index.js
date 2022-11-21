@@ -28,7 +28,7 @@ const cards = [
 const memoryGame = new MemoryGame(cards);
 
 //no 2 games are the same!
-// memoryGame.shuffleCards();
+memoryGame.shuffleCards();
 
 window.addEventListener('load', (event) => {
   let html = '';
